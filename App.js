@@ -22,7 +22,6 @@ export default function App() {
       <TextInput
         style={{height: 40}}
         placeholder="Enter protein in grams"
-        //onChangeText={text1 => setText1(text1)}
         defaultValue={text1}
       />
        <Text style={{padding: 10, fontSize: 42}}>
@@ -50,7 +49,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fsf',
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
